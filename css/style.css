@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: cursive;
+}
+
+
+.col66s{
+  text-align: center;
+  display: inline-block;
+  background: #000;
+}
+
+h2{
+  color: #ffffff;
+}
+
+.faa1{
+  text-align: center;
+  display: inline-block;
+  background:  #e11e3d;
+  height: 200px;
+}
+
+#Dice_Game{
+color: #ffffff;
+  font-size: 100px;
+}
+
+.fff22{
+  position: absolute;
+  left: 600px;
+  top: 250px;
+  width: 280px;
+  height: 240px;
+}
+
+.Game{
+  height: 150px;
+  text-align: center;
+background:  #e11e3d;
+}
+
+#total1{
+  padding-right: 60px;
+}
+#total2{
+  padding-right: 60px;
+}
+
+.dice-wrapper{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    height: 380px;
+}
+p{
+    font-size: 16px;
+    margin: 30px 0;
+    font-weight: 500;
+}
+button{
+    background-color: #343434;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 15px 0;
+    width: 200px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.shake{
+    animation: shake 0.5s infinite;
+}
+@keyframes shake{
+    0%{
+        transform: rotate(8deg);
+    }
+    50%{
+        transform: rotate(-8deg);
+    }
+    100%{
+        transform: rotate(8deg);
+    }
+}
